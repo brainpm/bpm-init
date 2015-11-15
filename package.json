@@ -4,7 +4,7 @@
   "description": "Create boilerplate for a brainpm episode",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*"
+    "test": "tape test/*spec.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/regular/bpm-init/issues"
   },
-  "homepage": "https://github.com/regular/bpm-init#readme"
+  "homepage": "https://github.com/regular/bpm-init#readme",
+  "dependencies": {
+    "glob": "^6.0.1",
+    "init-package-json": "^1.9.1",
+    "npm": "^3.4.0",
+    "rc": "^1.1.5"
+  },
+  "devDependencies": {
+    "pathway": "^1.0.1",
+    "stream-expect": "^0.1.0",
+    "tape": "^4.2.2",
+    "temporary": "0.0.8"
+  }
 }
